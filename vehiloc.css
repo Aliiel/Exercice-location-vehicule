@@ -27,7 +27,13 @@ nav a {
     padding:100px;
     display:flex;
     justify-content:space-between;
-    font-family: Verdana
+    font-family: Verdana;
+    
+}
+
+fieldset {
+    align-self:center;
+    
 }
 
 #ville {
@@ -35,15 +41,15 @@ nav a {
 }
 
 #depart {
-    padding-top:10px;
+    padding-top:15px;
 }
 
 #arrivee {
-    padding-top:10px;
+    padding-top:20px;
 }
 
 #type {
-    padding-top:10px;
+    padding-top:20px;
 }
 
 input {
@@ -51,11 +57,13 @@ input {
 }
 
 #rechercher {
-    border-radius: 5%;
+    border-radius: 15%;
     background-color:#36C4B3;
     padding:10px;
     color:white;
     font-family: Verdana;
+    margin-top:10px;
+    align-self:center;
 }
 
 #offre {
