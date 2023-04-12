@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Véhi'Loc</title>
+    <link rel="stylesheet" href="./vehiloc.css">
+</head>
+<body>
+    <header class="banner">
+            <nav>
+                <img src="./VéhiLoc.svg" id="logo">
+                <a href="">Nos offres</a>
+                <a href="">Nos véhicules</a>
+                <a href="">Contact</a>
+                <a href="">Inscription / Connexion</a>
+            </nav>
+    </header>
+    <div class="reservation">   
+            <img src=".//poster-voiture.svg" alt="voiture">
+            <section class="formulaire">
+                <fieldset style="background-color: white;">
+                <b>Réservez votre véhicule</b><br>
+                    <form>
+                        <label for="ville">Choisir une ville :<br>
+                            <input type="text" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                        </label>
+                        <label for="depart">Départ :<br>
+                            <input type="date" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                        </label>
+                        <label for="arrivee">Arrivée :<br>
+                            <input type="date" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                        </label>
+                        <label for="type-de-vehicule">Type de véhicule :<br>
+                            <input type="image" src="./Car.svg">
+                            <input type="image" src="./Truck.svg">
+                            <input type="image" src="./Dirt Bike.svg">
+                            <input type="image" src="./Bicycle.svg">
+                        </label><br>
+                        <input type="submit" value="Rechercher" id="rechercher">
+                    </form>
+                </fieldset>
+            </section>
+    </div>
+    <h1 id="offre"><b>Nos offres du moment</b></h1>
+    <div class="offres">
+        <section id="offre1">
+            <img src="./photo-offre1.svg">
+            <p><b>Louez dès 18 ans sans surcoût</b></p>
+        </section>
+        <section id="offre2">
+            <img src="./photo-offre2.svg">
+            <p><b>Location 24/7</b></p>
+        </section>
+        <section id="offre3">
+            <img src="./photo-offre3.svg">
+            <p><b>Déménagez en toute sérénité</b></p>
+        </section>
+    </div>
+    <div class="gammes">
+    <b>Nos gammes de véhicules</b>
+        <section>
+            <img src="./Car.svg">
+            <img src="./Truck.svg">
+            <img src="./Dirt Bike.svg">
+            <img src="./Bicycle.svg">
+        </section>
+    </div>
+    <div class="vehicules">
+        <section id="vehicule1">
+            <img src="./renault-clio.png">
+            <p><b>Renault Clio</b><br>
+                à partir de 30€</p>
+        </section>
+        <section id="vehicule2">
+            <img src="./renault-clio.png">
+            <p><b>Renault Clio</b><br>
+                à partir de 30€</p>
+        </section>
+        <section id="vehicule3">
+            <img src="./renault-clio.png">
+            <p><b>Renault Clio</b><br>
+                à partir de 30€</p>
+        </section>
+        <section id="vehicule4">
+            <img src="./renault-clio.png">
+            <p><b>Renault Clio</b><br>
+                à partir de 30€</p>
+        </section>
+    </div>
+    <div class="contact">
+        <p id="contact"><b>Contact</b></p>
+        <section id="coordonnees">
+            <form>
+                <label for="name">Nom :<br>
+                    <input type="text" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                </label>
+                <label for="prenom">Prénom :<br>
+                    <input type="text" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                </label>
+                <label for="email">E-mail :<br>
+                    <input type="text" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                </label>
+            </section>
+            <section id="message">
+                <label for="message">Votre message :<br>
+                    <textarea id="area" rows="7" cols="15" style="background-color: rgba(128, 128, 128, 0.25)"></textarea><br>
+                </label>
+                    <input type="submit" value="Envoyer" id="envoyer">
+        </section>
+    </form>
+    </div>
+    
+</body>
+</html>
