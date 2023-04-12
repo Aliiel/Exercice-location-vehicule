@@ -30,6 +30,22 @@ nav a {
     font-family: Verdana
 }
 
+#ville {
+    padding-top:20px;
+}
+
+#depart {
+    padding-top:10px;
+}
+
+#arrivee {
+    padding-top:10px;
+}
+
+#type {
+    padding-top:10px;
+}
+
 input {
     border:none;
 }
@@ -39,7 +55,6 @@ input {
     background-color:#36C4B3;
     padding:10px;
     color:white;
-    align-items: center;
     font-family: Verdana;
 }
 

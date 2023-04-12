@@ -25,22 +25,32 @@
                 <fieldset style="background-color: white;">
                 <b>Réservez votre véhicule</b><br>
                     <form>
-                        <label for="ville">Choisir une ville :<br>
-                            <input type="text" style="background-color: rgba(128, 128, 128, 0.25)"><br>
-                        </label>
-                        <label for="depart">Départ :<br>
-                            <input type="date" style="background-color: rgba(128, 128, 128, 0.25)"><br>
-                        </label>
-                        <label for="arrivee">Arrivée :<br>
-                            <input type="date" style="background-color: rgba(128, 128, 128, 0.25)"><br>
-                        </label>
-                        <label for="type-de-vehicule">Type de véhicule :<br>
-                            <input type="image" src="./Car.svg">
-                            <input type="image" src="./Truck.svg">
-                            <input type="image" src="./Dirt Bike.svg">
-                            <input type="image" src="./Bicycle.svg">
-                        </label><br>
-                        <input type="submit" value="Rechercher" id="rechercher">
+                        <div id="ville">
+                            <label for="ville">Choisir une ville :<br>
+                                <input type="text" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                            </label>
+                        </div>
+                        <div id="depart">
+                            <label for="depart">Départ :<br>
+                                <input type="date" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                            </label>
+                        </div>
+                        <div id="arrivee">
+                            <label for="arrivee">Arrivée :<br>
+                                <input type="date" style="background-color: rgba(128, 128, 128, 0.25)"><br>
+                            </label>
+                        </div>
+                        <div id="type">
+                            <label for="type-de-vehicule">Type de véhicule :<br>
+                                <input type="image" src="./Car.svg">
+                                <input type="image" src="./Truck.svg">
+                                <input type="image" src="./Dirt Bike.svg">
+                                <input type="image" src="./Bicycle.svg">
+                            </label><br>
+                        </div>
+                        <div id="bouton">
+                            <input type="submit" value="Rechercher" id="rechercher">
+                        </div>
                     </form>
                 </fieldset>
             </section>
