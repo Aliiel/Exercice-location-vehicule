@@ -1,14 +1,15 @@
 nav a {
     font-family: Verdana;
-    margin: left 50px;
     text-decoration: none;
     color:black;
-    padding: 0 30px;
-    padding-left: 50px;
-    padding-right: 50px;
     line-height: 1.5;
-    justify-content:space-evenly;
+    margin-left: 300px;
 }
+
+.banner {
+    display:flex;
+}
+
 
 #logo {
     size: 20px;
@@ -28,7 +29,6 @@ nav a {
     justify-content:space-between;
     font-family: Verdana
 }
-
 
 input {
     border:none;
@@ -96,6 +96,7 @@ input {
     border-bottom:10px solid #36C4B3;
     padding-bottom: 20px;
     font-family: Verdana;
+    align-items:center;
 }
 
 #envoyer {
@@ -108,3 +109,19 @@ input {
     font-family: Verdana;
 }
 
+#contact {
+    align-self:center;
+}
+
+#envoyer {
+    align-self:center;
+}
+
+footer {
+    display:flex;
+    justify-content:space-around;
+}
+
+li{
+    display:inline-block;
+}
